@@ -1,0 +1,20 @@
+body {
+    background-color: rgb(52, 137, 211);
+}
+
+#welcome{
+    text-align: center;
+    color: white
+}
+
+
+#header{
+display: inline;
+ background-color: gray;
+ text-align: center;
+}
+
+#logo{
+    position: fixed;
+    left: 15px;
+}
