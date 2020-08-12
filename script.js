@@ -1,5 +1,11 @@
 
-
+anime({
+    targets: '#welcome',
+    opacity: [0, 1],
+    translateY: ['125px', '0px'],
+    easing: 'easeOutCubic',
+    duration: 3500,
+  })
 
 
 /*fetch('https://opentdb.com/api.php?amount=10&category=18&difficulty=easy&type=multiple')
