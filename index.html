@@ -3,49 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Skill Choice</title>
+    <title>Skill Study</title>
     <link rel = "stylesheet" href = "style.css">
 </head>
 <body>
-    <div class = 'header'>
-       <a href="welcome.html"> <img class = 'logo' src = 'images/skillStudyLogo1.png' width="70px"></a>
-        <h1>Skill Study</h1>
-    </div>
-    <a href = 'welcome.html'>Click here to Start Over</a>
-    <div class="options">
-    
-        <form>
-            <label for="skillChoice1" >choose a skill that you think you are strongest in?</label><br>
-            <select id="skillChoice1" name="skillChoice1" ><br>
-                <option value="option1">Mathematics</option>
-                <option value="option2">Sculpting</option>
-                <option value="option3">Coding</option>
-                <option value="option4">Solving Riddles</option>
-                <option value="option5">Drawing</option>
-                <option value="option6">Writing</option>
-            </select>
-       
-            <label for="skillChoice2">choose another skill that you think you are strong in?</label><br>
-            <select id="skillChoice2" name="skillChoice2"><br>
-                <option value="option1">Mathematics</option>
-                <option value="option2">Sculpting</option>
-                <option value="option3">Coding</option>
-                <option value="option4">Solving Riddles</option>
-                <option value="option5">Drawing</option>
-                <option value="option6">Writing</option>
-            </select>
-
-            <label for="WeakPoint">choose a skill that you think you are weakest in?</label><br>
-            <select id="WeakPoint" name="skillChoice"><br>    
-                <option value="option1">Mathematics</option>
-                <option value="option2">Sculpting</option>
-                <option value="option3">Coding</option>
-                <option value="option4">Solving Riddles</option>
-                <option value="option5">Drawing</option>
-                <option value="option6">Writing</option>
-            </select>
-        </form>
-        <a href=>Next</a><!--We need this to link to a page that shows the recommendation but we dk how that will go yet-->
-            <script src= 'script.js'></script>
-</body>
-</html>
+    <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.0/lib/anime.min.js"></script>
+    <div class="container">
+    <div id = 'welcome'>
+        <h1>Welcome to Skill Study</h1>
+        <h2>We invite you to find and work toward your career goals.</h2>
+        <a id = 'getStarted' href = 'search.html'>Get Started</a>
+    </div></div>
+    <script src = 'script.js'></script>
