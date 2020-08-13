@@ -72,3 +72,16 @@ body, html {
     font-size: larger;
     resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
   }
+  #BackButton{
+    color: yellow;
+  }
+  #SkillChoice1{
+    font-size: 20px;
+
+  }
+  #SkillChoice2{
+    font-size: 20px;
+  }
+  #Weakness{
+    font-size: 20px;
+  }
