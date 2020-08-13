@@ -7,15 +7,7 @@ body, html {
 
 }
   
-  #welcome {
-    height: 100%;
-    width: 100%;
-    display: flex;
-    place-content: center center;
-    flex-direction: column;
- text-align: center;
-    color: white;
-}
+
   
 .header{
  background-color: gray;
@@ -28,26 +20,7 @@ body, html {
     top: 10px;
     left: 15px;
 }
-.container {
-    background-image: url('images/welcomeBackground.jpg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100%;
-    width: 100%;
-    display: flex;
-    place-content: center center;
-    flex-direction: column;
-  }
 
-  #getStarted{
-    color: rgb(52, 137, 211);
-     
-      
-  }
-  #getStarted:hover{
-      font-size: larger;
-  }
 
   input[type=submit] {
     background-color: #4CAF50;
@@ -85,3 +58,32 @@ body, html {
   #Weakness{
     font-size: 20px;
   }
+
+a{
+  color: white;
+ border:solid white 1px; /*do you like the white border or the black border?*/
+ padding-left: 5px;
+ padding-right: 5px;
+ padding-top: 5px;
+ padding-bottom: 5px;
+ margin-left: 10px;
+  text-align: center;
+  background-color: rgb(52, 137, 211);
+}
+.Firstpage{
+  padding-left: 10px;
+
+}
+.options{
+  padding-left: 10px;
+}
+#Reset{
+  color: yellow;
+  
+}
+.AfterTest{
+  padding-left: 10px;
+}
+#TenQuestions{
+  padding-left: 10px;
+}

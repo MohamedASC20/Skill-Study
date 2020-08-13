@@ -2,7 +2,7 @@
     //var str ="wrong";
     //var result = str.link("https://www.w3schools.com/html/html_forms.asp");
     //document.getElementById("incorrect").innerHTML = result;
-    }
+    //}
 //document.getElementById("incorrect").innerHTML = result;
 //result.display.style = "none";
 
@@ -90,7 +90,7 @@ function quizSubmit(event){
     printScore.innerHTML = 'You got ' + score +'/10 correct!';
     document.body.appendChild(printScore);
 
-    
+}
     //if(score != 10){
         //result.display.style = 'block';
     //}}
